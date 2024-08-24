@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Interfaces">
+      <UniqueIdentifier>{84a5ea57-bcde-43eb-92fc-a1d35cf0a83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interfaces">
+      <UniqueIdentifier>{24f4d6ce-d1b5-4aa9-8e72-b78d159ce157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{04694915-9594-4629-9da2-504a5739003b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{77652c20-46e1-4fab-b002-f09ac92a3f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics and Positioning">
+      <UniqueIdentifier>{ed7d9a9f-cdb9-4a5d-a80f-546071dd0ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics and Positioning">
+      <UniqueIdentifier>{00e0d28c-b79e-4b6b-9e01-96e427f92828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Incomplete">
+      <UniqueIdentifier>{6c604a21-2b39-43a4-bfaf-489772601521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Incomplete">
+      <UniqueIdentifier>{5036ce90-4c9c-4330-b5b2-508991d96038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Environment">
+      <UniqueIdentifier>{f06acec0-66a4-4d63-9ee9-d51800f96df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Environment\Characters">
+      <UniqueIdentifier>{f8c82728-bf5f-43d8-a1f7-3e0c24cae490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment">
+      <UniqueIdentifier>{8723bf4d-9310-4876-ade5-71a50cb563b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment\Characters">
+      <UniqueIdentifier>{f0290432-f291-4ad6-ab69-cc08e56e5b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment\Items">
+      <UniqueIdentifier>{7dacf005-5df2-464a-8962-f7a3ce98ab32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Environment\Items">
+      <UniqueIdentifier>{6d5e046c-bb1a-45cb-8d32-25dcd31f05b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment\Characters\AI">
+      <UniqueIdentifier>{cbe6542a-f1b2-46f2-8a80-15aba1f11274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Environment\Characters\AI">
+      <UniqueIdentifier>{fa034749-1b44-494e-89d8-2e0f60a0b5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Environment\Items\Projectiles">
+      <UniqueIdentifier>{f6a96e7d-f963-4578-bd9b-90f5dc9c4bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment\Items\Projectiles">
+      <UniqueIdentifier>{b363c2a8-d897-420e-80ed-3447cb9bfbb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{bf35f180-b161-4225-ad06-6a16d38ec4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{8282451f-20d5-415e-addc-0d0191ea3e01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IDrawable.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="IUpdatable.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Stat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IVulnerable.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Source Files\Physics and Positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Physics and Positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Source Files\Physics and Positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="ISpaceObject.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="IUsable.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="AsteroidSpawner.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Environment\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Environment\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="IItem.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Attachment.cpp">
+      <Filter>Source Files\Environment\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files\Environment\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Source Files\Environment\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Environment\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="ContextSteering.cpp">
+      <Filter>Source Files\Environment\Characters\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files\Environment\Items\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingMissile.cpp">
+      <Filter>Source Files\Environment\Items\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleCollider.cpp">
+      <Filter>Source Files\Physics and Positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbox.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Popup.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdatable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Stat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVulnerable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Physics and Positioning</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Header Files\Physics and Positioning</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Header Files\Physics and Positioning</Filter>
+    </ClInclude>
+    <ClInclude Include="ISpaceObject.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="AsteroidSpawner.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="IUsable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Environment\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Environment\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="IItem.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Attachment.h">
+      <Filter>Header Files\Environment\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\Environment\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Environment\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextSteering.h">
+      <Filter>Header Files\Environment\Characters\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Header Files\Environment\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files\Environment\Items\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingMissile.h">
+      <Filter>Header Files\Environment\Items\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleCollider.h">
+      <Filter>Header Files\Physics and Positioning</Filter>
+    </ClInclude>
+    <ClInclude Include="Popup.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbox.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
